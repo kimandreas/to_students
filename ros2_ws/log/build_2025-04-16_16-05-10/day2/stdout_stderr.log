@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/day2/day2.egg-info/PKG-INFO
+writing dependency_links to ../../build/day2/day2.egg-info/dependency_links.txt
+writing entry points to ../../build/day2/day2.egg-info/entry_points.txt
+writing requirements to ../../build/day2/day2.egg-info/requires.txt
+writing top-level names to ../../build/day2/day2.egg-info/top_level.txt
+reading manifest file '../../build/day2/day2.egg-info/SOURCES.txt'
+writing manifest file '../../build/day2/day2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying day2/2_6_e_yolo_publisher.py -> /home/rokey-kim/Documents/ros2_ws/build/day2/build/lib/day2
+copying day2/2_6_f_yolo_subscriber.py -> /home/rokey-kim/Documents/ros2_ws/build/day2/build/lib/day2
+running install
+running install_lib
+copying /home/rokey-kim/Documents/ros2_ws/build/day2/build/lib/day2/2_6_e_yolo_publisher.py -> /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2
+copying /home/rokey-kim/Documents/ros2_ws/build/day2/build/lib/day2/2_6_f_yolo_subscriber.py -> /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2
+byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2/2_6_e_yolo_publisher.py to 2_6_e_yolo_publisher.cpython-310.pyc
+byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2/2_6_f_yolo_subscriber.py to 2_6_f_yolo_subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/day2/day2.egg-info to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub_data script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing pub_image script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing pub_yolo script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_data script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_image script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_yolo script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/day2/install.log'

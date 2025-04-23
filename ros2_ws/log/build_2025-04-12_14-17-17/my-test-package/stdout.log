@@ -1,0 +1,14 @@
+running egg_info
+creating ../../../../../../../../build/my-test-package/my_test_package.egg-info
+writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+running build
+running install
+running install_egg_info
+Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/rokey-kim/Documents/ros2_ws/install/my-test-package/lib/python3.10/site-packages/my_test_package-1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/my-test-package/install.log'

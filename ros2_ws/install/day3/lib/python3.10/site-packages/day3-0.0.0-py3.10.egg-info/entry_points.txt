@@ -1,0 +1,11 @@
+[console_scripts]
+capture_image = day3.3_1_a_capture_image:main
+cont_cap_image = day3.3_1_b_cont_capture_image:main
+depth_checker = day3.3_5_a_depth_checker:main
+depth_to_3d = day3.3_5_b_depth_to_3d:main
+depth_to_goal = day3.3_5_c_depth_to_nav_goal:main
+det_obj = day3.3_4_a_yolov8_obj_det:main
+det_obj_thread = day3.3_4_b_yolov8_obj_det_thread:main
+det_obj_track = day3.3_4_c_yolov8_obj_det_track:main
+nav_to_person = day3.3_5_d_nav_to_person:main
+

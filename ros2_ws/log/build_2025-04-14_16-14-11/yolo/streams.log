@@ -1,0 +1,29 @@
+[0.369s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/yolo': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/rokey-kim/Documents/ros2_ws/build/yolo/build install --record /home/rokey-kim/Documents/ros2_ws/build/yolo/install.log --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.515s] writing ../../build/yolo/yolo.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+[0.516s] reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] copying yolo/2_13_Video_Capture_Threading.py -> /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo
+[0.517s] running install
+[0.518s] running install_lib
+[0.518s] copying /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo/2_13_Video_Capture_Threading.py -> /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo
+[0.519s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo/2_13_Video_Capture_Threading.py to 2_13_Video_Capture_Threading.cpython-310.pyc
+[0.519s] running install_data
+[0.519s] running install_egg_info
+[0.521s] removing '/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.521s] Copying ../../build/yolo/yolo.egg-info to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[0.521s] running install_scripts
+[0.535s] Installing capture_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] Installing cont_cap_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] Installing det_obj script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] Installing draw_box script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] Installing draw_polygon script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] Installing threading script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.535s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/yolo/install.log'
+[0.550s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/yolo' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/rokey-kim/Documents/ros2_ws/build/yolo/build install --record /home/rokey-kim/Documents/ros2_ws/build/yolo/install.log --single-version-externally-managed install_data

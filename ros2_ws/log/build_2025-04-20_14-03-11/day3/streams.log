@@ -1,0 +1,33 @@
+[0.397s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/day3': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day3/build install --record /home/rokey-kim/Documents/ros2_ws/build/day3/install.log --single-version-externally-managed install_data
+[0.549s] running egg_info
+[0.549s] writing ../../build/day3/day3.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../../build/day3/day3.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../../build/day3/day3.egg-info/entry_points.txt
+[0.550s] writing requirements to ../../build/day3/day3.egg-info/requires.txt
+[0.550s] writing top-level names to ../../build/day3/day3.egg-info/top_level.txt
+[0.550s] reading manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[0.551s] running build
+[0.551s] running build_py
+[0.551s] copying day3/3_5_b_depth_to_3d.py -> /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3
+[0.551s] copying day3/3_5_a_depth_checker.py -> /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3
+[0.551s] running install
+[0.551s] running install_lib
+[0.552s] copying /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3/3_5_b_depth_to_3d.py -> /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3
+[0.552s] copying /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3/3_5_a_depth_checker.py -> /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3
+[0.553s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3/3_5_b_depth_to_3d.py to 3_5_b_depth_to_3d.cpython-310.pyc
+[0.553s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3/3_5_a_depth_checker.py to 3_5_a_depth_checker.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] running install_egg_info
+[0.554s] removing '/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/day3/day3.egg-info to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info
+[0.555s] running install_scripts
+[0.568s] Installing capture_image script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing cont_cap_image script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing depth_checker script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing depth_to_3d script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing det_obj script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing det_obj_thread script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] Installing det_obj_track script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[0.568s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/day3/install.log'
+[0.581s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/day3' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day3/build install --record /home/rokey-kim/Documents/ros2_ws/build/day3/install.log --single-version-externally-managed install_data

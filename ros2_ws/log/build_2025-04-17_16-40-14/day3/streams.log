@@ -1,0 +1,23 @@
+[0.860s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/build/day3': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/day3/build --no-deps symlink_data --force
+[1.022s] running develop
+[1.131s] running egg_info
+[1.132s] writing day3.egg-info/PKG-INFO
+[1.132s] writing dependency_links to day3.egg-info/dependency_links.txt
+[1.132s] writing entry points to day3.egg-info/entry_points.txt
+[1.132s] writing requirements to day3.egg-info/requires.txt
+[1.132s] writing top-level names to day3.egg-info/top_level.txt
+[1.133s] reading manifest file 'day3.egg-info/SOURCES.txt'
+[1.133s] writing manifest file 'day3.egg-info/SOURCES.txt'
+[1.135s] running build_ext
+[1.135s] Creating /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3.egg-link (link to .)
+[1.136s] Installing capture_image script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[1.136s] Installing cont_cap_image script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[1.136s] Installing det_obj script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[1.136s] Installing det_obj_thread script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[1.136s] Installing det_obj_track script to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/day3
+[1.136s] 
+[1.136s] Installed /home/rokey-kim/Documents/ros2_ws/build/day3
+[1.136s] running symlink_data
+[1.136s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/day3/resource/day3 -> /home/rokey-kim/Documents/ros2_ws/install/day3/share/ament_index/resource_index/packages
+[1.136s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/day3/package.xml -> /home/rokey-kim/Documents/ros2_ws/install/day3/share/day3
+[1.176s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/build/day3' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/day3/build --no-deps symlink_data --force

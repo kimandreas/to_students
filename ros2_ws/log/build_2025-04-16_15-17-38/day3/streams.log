@@ -1,0 +1,33 @@
+[0.873s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/day3': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day3/build install --record /home/rokey-kim/Documents/ros2_ws/build/day3/install.log --single-version-externally-managed install_data
+[1.034s] running egg_info
+[1.034s] creating ../../build/day3/day3.egg-info
+[1.034s] writing ../../build/day3/day3.egg-info/PKG-INFO
+[1.035s] writing dependency_links to ../../build/day3/day3.egg-info/dependency_links.txt
+[1.035s] writing entry points to ../../build/day3/day3.egg-info/entry_points.txt
+[1.035s] writing requirements to ../../build/day3/day3.egg-info/requires.txt
+[1.035s] writing top-level names to ../../build/day3/day3.egg-info/top_level.txt
+[1.035s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.035s] reading manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.036s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.036s] running build
+[1.036s] running build_py
+[1.036s] creating /home/rokey-kim/Documents/ros2_ws/build/day3/build
+[1.036s] creating /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib
+[1.036s] creating /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3
+[1.036s] copying day3/__init__.py -> /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3
+[1.037s] running install
+[1.037s] running install_lib
+[1.037s] creating /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3
+[1.037s] copying /home/rokey-kim/Documents/ros2_ws/build/day3/build/lib/day3/__init__.py -> /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3
+[1.037s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3/__init__.py to __init__.cpython-310.pyc
+[1.037s] running install_data
+[1.037s] creating /home/rokey-kim/Documents/ros2_ws/install/day3/share/ament_index
+[1.037s] creating /home/rokey-kim/Documents/ros2_ws/install/day3/share/ament_index/resource_index
+[1.038s] creating /home/rokey-kim/Documents/ros2_ws/install/day3/share/ament_index/resource_index/packages
+[1.038s] copying resource/day3 -> /home/rokey-kim/Documents/ros2_ws/install/day3/share/ament_index/resource_index/packages
+[1.038s] copying package.xml -> /home/rokey-kim/Documents/ros2_ws/install/day3/share/day3
+[1.038s] running install_egg_info
+[1.039s] Copying ../../build/day3/day3.egg-info to /home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info
+[1.039s] running install_scripts
+[1.053s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/day3/install.log'
+[1.076s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/day3' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day3/build install --record /home/rokey-kim/Documents/ros2_ws/build/day3/install.log --single-version-externally-managed install_data

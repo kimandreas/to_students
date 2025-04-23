@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info
+writing ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/top_level.txt
+writing manifest file '../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build
+creating /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib
+creating /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib/oakd_image_subscriber
+copying oakd_image_subscriber/show_cam.py -> /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib/oakd_image_subscriber
+copying oakd_image_subscriber/__init__.py -> /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib/oakd_image_subscriber
+running install
+running install_lib
+creating /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber
+copying /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib/oakd_image_subscriber/show_cam.py -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber
+copying /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build/lib/oakd_image_subscriber/__init__.py -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber
+byte-compiling /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber/show_cam.py to show_cam.cpython-310.pyc
+byte-compiling /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/ament_index
+creating /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/ament_index/resource_index
+creating /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/ament_index/resource_index/packages
+copying resource/oakd_image_subscriber -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/oakd_image_subscriber
+running install_egg_info
+Copying ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info to /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing show_cam script to /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/oakd_image_subscriber
+writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/install.log'

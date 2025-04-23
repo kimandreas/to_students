@@ -1,0 +1,18 @@
+[0.857s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/build/yolo': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/yolo/build --no-deps symlink_data --force
+[1.017s] running develop
+[1.125s] running egg_info
+[1.125s] writing yolo.egg-info/PKG-INFO
+[1.125s] writing dependency_links to yolo.egg-info/dependency_links.txt
+[1.125s] writing entry points to yolo.egg-info/entry_points.txt
+[1.126s] writing requirements to yolo.egg-info/requires.txt
+[1.126s] writing top-level names to yolo.egg-info/top_level.txt
+[1.126s] reading manifest file 'yolo.egg-info/SOURCES.txt'
+[1.126s] writing manifest file 'yolo.egg-info/SOURCES.txt'
+[1.127s] running build_ext
+[1.127s] Creating /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo.egg-link (link to .)
+[1.128s] 
+[1.128s] Installed /home/rokey-kim/Documents/ros2_ws/build/yolo
+[1.128s] running symlink_data
+[1.128s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/yolo/resource/yolo -> /home/rokey-kim/Documents/ros2_ws/install/yolo/share/ament_index/resource_index/packages
+[1.128s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/yolo/package.xml -> /home/rokey-kim/Documents/ros2_ws/install/yolo/share/yolo
+[1.152s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/build/yolo' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/yolo/build --no-deps symlink_data --force

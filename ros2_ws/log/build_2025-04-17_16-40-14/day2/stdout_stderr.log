@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing day2.egg-info/PKG-INFO
+writing dependency_links to day2.egg-info/dependency_links.txt
+writing entry points to day2.egg-info/entry_points.txt
+writing requirements to day2.egg-info/requires.txt
+writing top-level names to day2.egg-info/top_level.txt
+reading manifest file 'day2.egg-info/SOURCES.txt'
+writing manifest file 'day2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rokey-kim/Documents/ros2_ws/install/day2/lib/python3.10/site-packages/day2.egg-link (link to .)
+Installing pub_data script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing pub_image script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing pub_yolo script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_data script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_image script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+Installing show_yolo script to /home/rokey-kim/Documents/ros2_ws/install/day2/lib/day2
+
+Installed /home/rokey-kim/Documents/ros2_ws/build/day2
+running symlink_data
+symbolically linking /home/rokey-kim/Documents/ros2_ws/build/day2/resource/day2 -> /home/rokey-kim/Documents/ros2_ws/install/day2/share/ament_index/resource_index/packages
+symbolically linking /home/rokey-kim/Documents/ros2_ws/build/day2/package.xml -> /home/rokey-kim/Documents/ros2_ws/install/day2/share/day2

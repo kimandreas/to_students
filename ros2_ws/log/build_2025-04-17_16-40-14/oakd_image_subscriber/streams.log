@@ -1,0 +1,19 @@
+[0.858s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build --no-deps symlink_data --force
+[1.019s] running develop
+[1.128s] running egg_info
+[1.128s] writing oakd_image_subscriber.egg-info/PKG-INFO
+[1.129s] writing dependency_links to oakd_image_subscriber.egg-info/dependency_links.txt
+[1.129s] writing entry points to oakd_image_subscriber.egg-info/entry_points.txt
+[1.129s] writing requirements to oakd_image_subscriber.egg-info/requires.txt
+[1.129s] writing top-level names to oakd_image_subscriber.egg-info/top_level.txt
+[1.130s] reading manifest file 'oakd_image_subscriber.egg-info/SOURCES.txt'
+[1.130s] writing manifest file 'oakd_image_subscriber.egg-info/SOURCES.txt'
+[1.131s] running build_ext
+[1.131s] Creating /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd-image-subscriber.egg-link (link to .)
+[1.131s] Installing show_cam script to /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/oakd_image_subscriber
+[1.132s] 
+[1.132s] Installed /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber
+[1.132s] running symlink_data
+[1.132s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/resource/oakd_image_subscriber -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/ament_index/resource_index/packages
+[1.132s] symbolically linking /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/package.xml -> /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/share/oakd_image_subscriber
+[1.162s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build --no-deps symlink_data --force

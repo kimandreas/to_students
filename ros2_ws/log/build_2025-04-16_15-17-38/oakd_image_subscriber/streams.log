@@ -1,0 +1,21 @@
+[0.867s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/oakd_image_subscriber': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oakd_image_subscriber build --build-base /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build install --record /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/install.log --single-version-externally-managed install_data
+[1.018s] running egg_info
+[1.018s] writing ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/PKG-INFO
+[1.019s] writing dependency_links to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/dependency_links.txt
+[1.019s] writing entry points to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/entry_points.txt
+[1.019s] writing requirements to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/requires.txt
+[1.019s] writing top-level names to ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/top_level.txt
+[1.020s] reading manifest file '../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/SOURCES.txt'
+[1.021s] writing manifest file '../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.021s] running install
+[1.021s] running install_lib
+[1.022s] running install_data
+[1.022s] running install_egg_info
+[1.023s] removing '/home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.023s] Copying ../../build/oakd_image_subscriber/oakd_image_subscriber.egg-info to /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages/oakd_image_subscriber-0.0.0-py3.10.egg-info
+[1.024s] running install_scripts
+[1.038s] Installing show_cam script to /home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/oakd_image_subscriber
+[1.038s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/install.log'
+[1.055s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/oakd_image_subscriber' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/oakd_image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oakd_image_subscriber build --build-base /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/build install --record /home/rokey-kim/Documents/ros2_ws/build/oakd_image_subscriber/install.log --single-version-externally-managed install_data

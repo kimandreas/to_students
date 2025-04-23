@@ -1,0 +1,25 @@
+[0.398s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/day4': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day4 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day4/build install --record /home/rokey-kim/Documents/ros2_ws/build/day4/install.log --single-version-externally-managed install_data
+[0.549s] running egg_info
+[0.549s] writing ../../build/day4/day4.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../../build/day4/day4.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../../build/day4/day4.egg-info/entry_points.txt
+[0.549s] writing requirements to ../../build/day4/day4.egg-info/requires.txt
+[0.549s] writing top-level names to ../../build/day4/day4.egg-info/top_level.txt
+[0.550s] reading manifest file '../../build/day4/day4.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../../build/day4/day4.egg-info/SOURCES.txt'
+[0.551s] running build
+[0.551s] running build_py
+[0.551s] copying day4/4_5_b_depth_to_3d.py -> /home/rokey-kim/Documents/ros2_ws/build/day4/build/lib/day4
+[0.552s] running install
+[0.552s] running install_lib
+[0.552s] copying /home/rokey-kim/Documents/ros2_ws/build/day4/build/lib/day4/4_5_b_depth_to_3d.py -> /home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages/day4
+[0.553s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages/day4/4_5_b_depth_to_3d.py to 4_5_b_depth_to_3d.cpython-310.pyc
+[0.554s] running install_data
+[0.554s] running install_egg_info
+[0.555s] removing '/home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages/day4-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/day4/day4.egg-info to /home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages/day4-0.0.0-py3.10.egg-info
+[0.555s] running install_scripts
+[0.569s] Installing depth_checker script to /home/rokey-kim/Documents/ros2_ws/install/day4/lib/day4
+[0.569s] Installing depth_to_3d script to /home/rokey-kim/Documents/ros2_ws/install/day4/lib/day4
+[0.569s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/day4/install.log'
+[0.583s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/day4' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/day4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/day4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day4 build --build-base /home/rokey-kim/Documents/ros2_ws/build/day4/build install --record /home/rokey-kim/Documents/ros2_ws/build/day4/install.log --single-version-externally-managed install_data

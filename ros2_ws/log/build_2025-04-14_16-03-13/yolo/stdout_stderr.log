@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/yolo/yolo.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolo/2_13_Video_Capture_Threading.py -> /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo
+running install
+running install_lib
+copying /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo/2_13_Video_Capture_Threading.py -> /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo
+byte-compiling /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo/2_13_Video_Capture_Threading.py to 2_13_Video_Capture_Threading.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolo/yolo.egg-info to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing capture_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+Installing cont_cap_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+Installing det_obj script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+Installing draw_box script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+Installing draw_polygon = yolo.2_11_Draw_Polygon:mainthreading script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/yolo/install.log'

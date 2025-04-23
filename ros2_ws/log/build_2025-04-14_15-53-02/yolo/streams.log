@@ -1,0 +1,31 @@
+[0.373s] Invoking command in '/home/rokey-kim/Documents/ros2_ws/src/yolo': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/rokey-kim/Documents/ros2_ws/build/yolo/build install --record /home/rokey-kim/Documents/ros2_ws/build/yolo/install.log --single-version-externally-managed install_data
+[0.548s] running egg_info
+[0.548s] writing ../../build/yolo/yolo.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+[0.549s] writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+[0.549s] writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+[0.550s] reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[0.551s] running build
+[0.551s] running build_py
+[0.551s] copying yolo/2_9_Draw_Box.py -> /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo
+[0.551s] copying yolo/2_12_Draw_Polygon_wc.py -> /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo
+[0.551s] running install
+[0.551s] running install_lib
+[0.552s] copying /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo/2_9_Draw_Box.py -> /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo
+[0.552s] copying /home/rokey-kim/Documents/ros2_ws/build/yolo/build/lib/yolo/2_12_Draw_Polygon_wc.py -> /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo
+[0.553s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo/2_9_Draw_Box.py to 2_9_Draw_Box.cpython-310.pyc
+[0.553s] byte-compiling /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo/2_12_Draw_Polygon_wc.py to 2_12_Draw_Polygon_wc.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] running install_egg_info
+[0.555s] removing '/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/yolo/yolo.egg-info to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[0.555s] running install_scripts
+[0.568s] Installing capture_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.568s] Installing cont_cap_image script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.568s] Installing det_obj script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.568s] Installing draw_box script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.568s] Installing draw_polygon script to /home/rokey-kim/Documents/ros2_ws/install/yolo/lib/yolo
+[0.568s] writing list of installed files to '/home/rokey-kim/Documents/ros2_ws/build/yolo/install.log'
+[0.581s] Invoked command in '/home/rokey-kim/Documents/ros2_ws/src/yolo' returned '0': PYTHONPATH=/home/rokey-kim/Documents/ros2_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-kim/Documents/ros2_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/rokey-kim/Documents/ros2_ws/build/yolo/build install --record /home/rokey-kim/Documents/ros2_ws/build/yolo/install.log --single-version-externally-managed install_data

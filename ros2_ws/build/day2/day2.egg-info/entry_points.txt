@@ -1,0 +1,8 @@
+[console_scripts]
+pub_data = day2.2_6_c_data_publisher:main
+pub_image = day2.2_6_a_image_publisher:main
+pub_yolo = day2.2_6_e_yolo_publisher:main
+show_data = day2.2_6_d_data_subscriber:main
+show_image = day2.2_6_b_image_subscriber:main
+show_yolo = day2.2_6_f_yolo_subscriber:main
+

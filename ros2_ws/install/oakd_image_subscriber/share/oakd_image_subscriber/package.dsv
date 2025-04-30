@@ -1,9 +1,0 @@
-source;share/oakd_image_subscriber/hook/pythonpath.ps1
-source;share/oakd_image_subscriber/hook/pythonpath.dsv
-source;share/oakd_image_subscriber/hook/pythonpath.sh
-source;share/oakd_image_subscriber/hook/ament_prefix_path.ps1
-source;share/oakd_image_subscriber/hook/ament_prefix_path.dsv
-source;share/oakd_image_subscriber/hook/ament_prefix_path.sh
-source;../../build/oakd_image_subscriber/share/oakd_image_subscriber/hook/pythonpath_develop.ps1
-source;../../build/oakd_image_subscriber/share/oakd_image_subscriber/hook/pythonpath_develop.dsv
-source;../../build/oakd_image_subscriber/share/oakd_image_subscriber/hook/pythonpath_develop.sh

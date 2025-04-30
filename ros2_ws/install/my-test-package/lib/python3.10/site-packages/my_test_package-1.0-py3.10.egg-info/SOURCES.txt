@@ -1,6 +1,0 @@
-setup.py
-../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
-../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt
-../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
-../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
-../../../../../../../../build/my-test-package/my_test_package.egg-info/zip-safe

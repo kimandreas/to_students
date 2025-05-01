@@ -1,0 +1,45 @@
+/oakd:
+  ros__parameters:
+    use_sim_time: false
+
+    camera:
+      i_enable_imu: false
+      i_enable_ir: false
+      i_floodlight_brightness: 0
+      i_laser_dot_brightness: 100
+      i_nn_type: none
+      i_pipeline_type: RGBD         # RGB + Depth
+      i_usb_speed: SUPER_PLUS
+
+    rgb:
+      i_board_socket_id: 0
+      i_fps: 30.0
+      i_height: 720
+      i_interleaved: false
+      i_max_q_size: 10
+      i_preview_size: 250
+      i_enable_preview: true
+      i_low_bandwidth: true
+      i_keep_preview_aspect_ratio: true
+      i_publish_topic: true
+      i_resolution: 1080P
+      i_width: 1280
+
+    stereo:  # ✅ Required to enable depth
+      i_board_socket_id: 1
+      i_fps: 30.0
+      i_width: 640
+      i_height: 480
+      i_depth_preset: HIGH_ACCURACY
+      i_align_depth: true
+      i_enable_depth: true
+      i_lr_check: true
+      i_subpixel: true
+      i_depth_filter_size: 7
+      i_max_q_size: 4
+      i_left_right_check_threshold: 10
+      i_disparity_width: DISPARITY_96
+
+    depth:  # ✅ Enables publishing of /rgb/preview/depth
+      enabled: true
+      i_publish_topic: true

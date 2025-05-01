@@ -1,4 +1,0 @@
-[console_scripts]
-depth_checker = day4.4_5_a_depth_checker:main
-depth_to_3d = day4.4_5_b_depth_to_3d:main
-

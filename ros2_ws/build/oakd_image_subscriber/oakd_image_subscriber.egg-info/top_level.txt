@@ -1,1 +1,0 @@
-oakd_image_subscriber

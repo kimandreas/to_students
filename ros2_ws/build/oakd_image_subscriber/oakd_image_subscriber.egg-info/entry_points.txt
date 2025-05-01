@@ -1,3 +1,0 @@
-[console_scripts]
-show_cam = oakd_image_subscriber.show_cam:main
-

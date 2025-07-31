@@ -290,7 +290,7 @@ def video_feed1():
 
 @app.route('/video_feed2')
 def video_feed2():
-    return Response(generate_frames(1), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(generate_frames(2), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/logout')
 def logout():

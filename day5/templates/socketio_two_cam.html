@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Cameras - SocketIO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Camera 1</h1>
+    <img id="camera1" width="640">
+    <h1>Camera 2</h1>
+    <img id="camera2" width="640">
+
+    <script>
+        const socket = io();
+
+        socket.on('camera1_frame', function(data) {
+            document.getElementById('camera1').src = 'data:image/jpeg;base64,' + data.image;
+        });
+
+        socket.on('camera2_frame', function(data) {
+            document.getElementById('camera2').src = 'data:image/jpeg;base64,' + data.image;
+        });
+    </script>
+</body>
+</html>

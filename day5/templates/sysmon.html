@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        /* Flexbox styling to center content */
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6; /* Light background color */
+        }
+
+        /* Centered container styling */
+        .welcome-container {
+            width: 100%;
+            max-width: fit-content;
+            max-height: fit-content;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+            text-align: center;
+        }
+
+        /* Styling for the welcome message */
+        .welcome-container h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .welcome-container p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .video-table-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Style for each video and table pair */
+        .video-with-table {
+            flex: 1 1 45%;
+            max-width: 480px;
+            text-align: center;
+        }
+        /* Style for each video feed */
+        .video-feed {
+            width: 100%;
+            max-width: 480px; /* Set max width for each video */
+            /* border: 2px solid #333; */
+            /* border-radius: 8px; */
+        }
+
+        /* Table styling */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .data-table th, .data-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .data-table tr:hover {
+            background-color: #e1f5e6;
+        }
+
+        /* Styling for the logout link */
+        .logout-link {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .logout-link:hover {
+            background-color: #45a049; /* Hover effect */
+        }
+    </style>
+</head>
+<body>
+    <!-- Centered welcome container -->
+    <div class="welcome-container">
+        <h1>Welcome, {{ username }}!</h1>
+        <p>You are now logged in.</p>
+
+        <!-- Video Feeds Container -->
+        <div class="video-table-container">
+            <!-- First Video Stream -->
+            <div class="video-feed">
+                <img src="{{ url_for('video_feed1') }}" alt="Live Camera Feed 1" width="480" height="360">
+                <p>Violations Detected</p>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Date & Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in data1 %}
+                        <tr>
+                            <td>{{ row[0] }}</td>
+                            <td>{{ row[1] }}</td>
+                            <td>{{ row[2] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Second Video Stream -->
+            <div class="video-feed">
+                <img src="{{ url_for('video_feed2') }}" alt="Live Camera Feed 2" width="480" height="360">
+                <p>Track and Following</p>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Date & Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in data2 %}
+                        <tr>
+                            <td>{{ row[0] }}</td>
+                            <td>{{ row[1] }}</td>
+                            <td>{{ row[2] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p></p>
+        <p></p>
+        <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+    </div>
+</body>
+</html>
